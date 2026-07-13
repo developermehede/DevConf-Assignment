@@ -117,3 +117,98 @@
   color: #575757;
   margin: 8px 0 24px;
 }
+
+/* Pricing Section Styles */
+.pricing-container{
+  width: 85%;
+  margin: 0 auto;
+
+}
+
+.pricing-container h2{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pricing-container .info{
+  color: #575757;
+  text-align: center;
+  margin: 12px 0 50px;
+}
+
+.pricing-box-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+.pricing-box{
+  border: 2px solid #E5E7EB;
+  padding: 50px;
+  border-radius: 15px;
+}
+.pricing-box .pricing-pack{
+  color: #888888;
+  font-weight: 600;
+}
+
+.pricing-box .price{
+  font-size: 44px;
+  font-weight: bold;
+  color: #0D1B2A;
+  margin: 6px 0;
+
+}
+
+.pricing-box .pricing-person{
+  color: #888888;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.pricing-box hr{
+  border: 1px solid #E5E7EB;
+  margin-bottom: 20px;
+}
+.pricing-box ul li{
+  color: #333333;
+  list-style: disc;
+  margin-bottom: 15px; 
+  
+}
+
+.pricing-box ul li::marker{
+  color: #2563EB;
+}
+
+.pricing-button{
+  color: #2563EB;
+  border: 1px solid #2563EB;
+  padding: 12px 74px;
+  background: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.pricing-box-highlight{
+  background-color: #0D1B2A;
+}
+.pricing-pack-highlight{
+  color: #93C5FD;
+  font-weight: 600;
+}
+.price-highlight{
+  font-size: 44px;
+  font-weight: bold;
+  color: white;
+  margin: 6px 0;
+}
+.pricing-box-highlight ul li{
+  color: white;
+}
+.pricing-box-highlight .pricing-button{
+  background-color: #2563EB;
+  color: white;
+}
